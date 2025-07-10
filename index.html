@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="description" content="News API" >
+    <meta name="keywords" content="HTML, CSS, JavaScript" >
+    <meta name="authors" content="Rucha Nimbalkar, Deja , Tiamoa Paige" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/styles.css" >
+    <title>News app</title>
+  </head>
+
+  <body>
+    <h1>Get News</h1>
+    <div class="wrapper">
+      <form id="news-form">
+        <p>
+          <label for="title"> Topic </label>
+          <input type="text" id="title" name="title" required >
+        </p>
+        <p>
+          <label for="country"> Country </label>
+          <select id="country" name="country" required>
+            <option value="">--Choose Country--</option>
+            <option value="us">USA</option>
+            <option value="nz">New Zealand</option>
+            <option value="gr">Germany</option>
+          </select>
+        </p>
+
+        <!--**Comment by Rucha : sCommenting this out for now as we need only 2 parameters topic/title and country to make a API call-->
+        <!--     <p>
+      <label for="news-source"> News Sources : </label>
+    <div>
+      <input type="radio" id="abc-news" value="abc-news" name="news-source" checked>
+      <label for="abc-news"> ABC News </label>
+    </div> 
+
+    <div>
+      <input type="radio" id="associated-press" value="associated-press" name="news-source">
+      <label for="associated-press"> Associated Press </label>
+    </div>
+    </p> **-->
+        <button type="submit">Get</button>
+      </form>
+      <div class="output display-none"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

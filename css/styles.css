@@ -1,0 +1,59 @@
+body{
+    background-color: pink;
+    color: white;
+    font-family: "Pacifico", cursive;
+    padding: 1rem;
+    margin: 1rem;
+}
+  
+.wrapper {
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    background-color: hotpink;
+    border: 0.1rem solid white;
+    padding: 1rem;
+    text-align: center;
+}
+  
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: pink;
+  border: 0.1rem solid white;
+  border-radius: 3px;
+  color: white;
+  font-family: inherit;
+}
+  
+.display-none {
+  display: none;
+}
+
+.output {
+  background-color: hotpink;
+  border: 0.1rem solid magenta;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+img{
+    width:100%;
+}
+
+h2{
+  color:hotpink
+}
+.card{
+  background-color: pink;
+  border: 0.1rem solid white;
+  padding: 1rem;
+  margin: 1rem;
+}
